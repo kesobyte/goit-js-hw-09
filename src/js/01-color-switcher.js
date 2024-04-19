@@ -14,8 +14,8 @@ stopBtn.disabled = true;
 function startColorChange() {
   colorChangeInterval = setInterval(() => {
     body.style.backgroundColor = getRandomHexColor();
-    stopBtn.disabled = false;
     startBtn.disabled = true;
+    stopBtn.disabled = false;
   }, 1000);
 }
 
